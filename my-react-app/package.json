@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently \"nodemon server/index.js\" \"npm start --prefix client\"",
-    "build": "tsc -b && vite build",
+    "build": "react-scripts build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
